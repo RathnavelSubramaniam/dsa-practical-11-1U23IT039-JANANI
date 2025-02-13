@@ -15,7 +15,7 @@ public void push(int data)
 {
     if(isFull())
     {
-        System.out.println("Stack is Overflow. Not possible to insert in full Stack ");
+        System.out.println("Stack is Overflow. Not possible to insert in Full stack ");
     }
     else
     {
@@ -39,11 +39,11 @@ public int pop()
 }
 public boolean isFull()
 {
-    return (size() == capacity);
+    return (size()==capacity);
 }
 public boolean isEmpty()
 {
-    return (top < 0);
+    return (top<0);
 }
 public void display()
 {
